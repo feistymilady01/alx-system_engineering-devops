@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -af --format=commas --file-type 
+ls -map|sort -d
