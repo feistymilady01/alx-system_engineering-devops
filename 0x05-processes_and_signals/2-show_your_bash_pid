@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#PID with bash
+# shellcheck disable=SC2009
+
+ps axuf | grep bash
+

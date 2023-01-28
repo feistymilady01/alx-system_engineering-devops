@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Stop a process without using kill
+
+pkill -9 -f 7-highlander
