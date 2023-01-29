@@ -18,5 +18,5 @@ do
 	then
 		echo "$num" 
 	fi
-num=$(num + 1);
+	num=$((num + 1));
 done
