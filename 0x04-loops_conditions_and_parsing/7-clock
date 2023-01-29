@@ -2,17 +2,31 @@
 # Displays time for 12 hours and 59 minutes
 
 hour=0
+
+while [ $hour -le 12 ]
+do
+  echo "Hour: $hour"
+  minute=1
+  while [ $minute -le 59 ]
+  do
+    echo "$minute"
+    (( minute++ ))
+  done
+  (( hour++ ))
+done
+
+#hour=0
 #minutes will be inside the while loop
 
-while (( $hour < 13 ));
-do
-	echo "Hour: $hour"
-	minutes=1
+#while (( $hour < 13 ));
+#do
+#	echo "Hour: $hour"
+#	minutes=1
 	#for ((minutes=1; minutes<60; minutes++));
-	while (( minutes < 60 ));
-	do
-		echo "minutes:$minutes"
-		minutes=$((minutes + 1));
-	done
-	hour=$((hour + 1));
-done
+#	while (( minutes < 60 ));
+#	do
+#		echo "minutes:$minutes"
+#		minutes=$((minutes + 1));
+#	done
+#	hour=$((hour + 1));
+#done
