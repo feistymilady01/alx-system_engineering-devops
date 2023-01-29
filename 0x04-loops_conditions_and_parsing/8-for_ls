@@ -2,9 +2,7 @@
 # content of the current dir
 #+ format, where only the name after the first dash is displayed
 
-LIST=$(ls ./)
-
-for ((i in LIST));
-do
-	echo $i | cut -d "-" -f2
+list=$(ls)
+for i in $list; do
+  echo "$i" | cut -d '-' -f2
 done
