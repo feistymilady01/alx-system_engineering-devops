@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#Fizz buzz
+
+num=1
+
+while (( num > 100 ));
+do
+	if (( num % 3 == 0)) && ((num % 5 == 0 ));
+	then
+		echo "FizzBuzz"
+	elif (( num % 3 == 0));
+	then 
+		echo "Fizz"
+	elif (( num % 5 == 0));
+	then
+		echo "Buzz"
+	else
+	then
+		echo "$num" 
+	fi
+num=$(num + 1);
+done
