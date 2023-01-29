@@ -2,9 +2,18 @@
 
 #until loop
 
-i=1
-until [$i == 10]
+count=0
+
+until [ $count -eq 10 ]
 do
-	echo "Best School";
-	let i++;
+  echo "Best School"
+  (( count++ ))
 done
+
+
+#i=1
+#until [$i == 10]
+#do
+#	echo "Best School";
+#	let i++;
+#done
