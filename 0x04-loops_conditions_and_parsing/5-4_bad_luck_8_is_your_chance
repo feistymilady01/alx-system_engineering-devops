@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-
-# loop using while elif and else
+# Loops from 1 to 10 and displays:
+#   "bad luck" for the 4th iteration
+#   "good luck" for the 8th iteration
+#   "Best School" for all other iterations
 
 count=0
 
@@ -17,18 +19,3 @@ do
   fi
   (( count++ ))
 done
-
-#i= 1
-#while (( i < 10 ));
-#do
-#	if(( i == 4 ));
-#	do
-#		echo "bad luck"
-#	elif(( i == 8 ));
-#	do
-#		echo "good luck"
-#	else;
-#	do
-#		echo "Best school"
-#	fi
-#done
