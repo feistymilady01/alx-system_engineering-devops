@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-
-#until loop
+# Displays "Best School" 10 times using an until loop.
 
 count=0
 
@@ -9,11 +8,3 @@ do
   echo "Best School"
   (( count++ ))
 done
-
-
-#i=1
-#until [$i == 10]
-#do
-#	echo "Best School";
-#	let i++;
-#done
