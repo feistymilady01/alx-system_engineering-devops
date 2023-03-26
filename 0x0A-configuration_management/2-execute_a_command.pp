@@ -6,5 +6,3 @@ exec { 'pkill killmenow':
   provider => shell,
   returns  => [0, 1]
 }
-Footer
-© 2023 GitHub, Inc.
