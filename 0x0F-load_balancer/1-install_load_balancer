@@ -12,8 +12,8 @@ frontend lovinaosaigbovo.tech
         default_backend web_servers
 backend web_servers
         balance roundrobin
-        server 105799-web-01 100.25.164.168
-        server 105799-web-02 54.237.39.10
+        server 105799-web-01 100.25.4.67
+        server 105799-web-02 54.90.30.105
 ' >> /etc/haproxy/haproxy.cfg
 
 # Restart HAproxy service
